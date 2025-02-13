@@ -9,11 +9,11 @@ Due to me actively working on this, the main branch of this project will evolve 
 If you're not interested in all that, just choose the `typescript-unmodified` branch.
 
 ## Download, install and run
-1️⃣ Fork the Repository  
+### 1️⃣ Fork the Repository  
 If you want to make changes to your own copy, 
 fork this repository by clicking the `Fork` button at the top right of this page.  
 
-2️⃣ Clone the Repository  
+### 2️⃣ Clone the Repository  
 ```
 git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
 ```  
@@ -24,17 +24,17 @@ git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
 Go to your repo and press the green `[<> Code]` button.  
 Copy the link from there.  
 
-3️⃣ Navigate into the Project Folder  
+### 3️⃣ Navigate into the Project Folder  
 ```
 cd REPOSITORY-NAME
 ```
 
-4️⃣ Install Dependencies  
+### 4️⃣ Install Dependencies  
 ```
 npm install
 ```
 
-5️⃣ Start the Development Server  
+### 5️⃣ Start the Development Server  
 ```
 npm run dev
 ```
