@@ -5,7 +5,7 @@ import Searchbar from "./Searchbar";
 
 const FilterableProductTable = ({products}:{products:Product[]})  => {
 
-	const [filterText, setFilterText] = useState("");
+	const [filterText, setFilterText] = useState("in");
 	const [inStockOnly, setInStockOnly] = useState(false);
 
 	return (
