@@ -1,9 +1,24 @@
-const Searchbar = ({filterText, inStockOnly}:{filterText:string, inStockOnly:boolean}) => {
+const Searchbar = ({
+	filterText, 
+	inStockOnly,
+	onFilterTextChange,
+	onInStockOnlyChange }: {
+		filterText: string, 
+		inStockOnly: boolean,
+		onFilterTextChange: (text:string) => void,
+		onInStockOnlyChange: (newValue: boolean) => void
+	}) => {
 	return (
 		<form>
-			<input type="text" value={filterText} placeholder="Search..." />
+			<input 
+			type="text" 
+			value={filterText} 
+			placeholder="Search..." 
+			onChange={(e) => onFilterTextChange(e.target.value)}/>
 			<label>
-				<input type="checkbox" checked={inStockOnly}/>
+				<input type="checkbox" 
+				checked={inStockOnly}
+				onChange={(e) => onInStockOnlyChange(e.target.checked)}/>
 				{' '}
 				Only show products in stock
 			</label>
