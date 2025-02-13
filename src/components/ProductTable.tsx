@@ -3,7 +3,7 @@ import { Product } from "../types/Product";
 import ProductCategoryRow from "./ProductCategoryRow";
 import ProductRow from "./ProductRow";
 
-function ProductTable({products}:{products:Product[]}) {
+function ProductTable({products, filterText, inStockOnly}:{products:Product[], filterText:string, inStockOnly:boolean}) {
 	const rows:JSX.Element[] = [];
 	let lastCategory: string = "";
 
