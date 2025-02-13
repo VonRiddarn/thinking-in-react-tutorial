@@ -1,13 +1,15 @@
+type SearchbarProps = {
+	filterText: string;
+	inStockOnly: boolean;
+	onFilterTextChange: (text: string) => void;
+	onInStockOnlyChange: (newValue: boolean) => void;
+};
+
 const Searchbar = ({
 	filterText, 
 	inStockOnly,
 	onFilterTextChange,
-	onInStockOnlyChange }: {
-		filterText: string, 
-		inStockOnly: boolean,
-		onFilterTextChange: (text:string) => void,
-		onInStockOnlyChange: (newValue: boolean) => void
-	}) => {
+	onInStockOnlyChange }: SearchbarProps) => {
 	return (
 		<form>
 			<input 
