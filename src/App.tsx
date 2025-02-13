@@ -1,11 +1,9 @@
 import './App.css'
+import FilterableProductTable from './components/FilterableProductTable';
+import { PRODUCTS } from './data/products';
 
 function App() {
-
-  return (
-    <>
-    </>
-  )
+	return <FilterableProductTable products={PRODUCTS} />;
 }
 
 export default App
