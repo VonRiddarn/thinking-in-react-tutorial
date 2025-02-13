@@ -1,6 +1,10 @@
 import { Product } from "../types/Product";
 
-const ProductRow = ({product}:{product:Product}) => {
+type ProductRowProps = {
+	product:Product;
+};
+
+const ProductRow = ({product}:ProductRowProps) => {
 	const name = product.stocked ? product.name : 
 	<span style={{color: "red"}}>
 		{product.name}

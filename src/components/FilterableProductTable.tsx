@@ -2,7 +2,12 @@ import { Product } from "../types/Product";
 import ProductTable from "./ProductTable";
 import Searchbar from "./Searchbar";
 
-const FilterableProductTable = ({products}:{products:Product[]})  => {
+type FilterableProductTableProps = {
+	products:Product[];
+};
+
+const FilterableProductTable = ({products}:FilterableProductTableProps)  => {
+
 	return (
 		<div>
 			<Searchbar />

@@ -1,4 +1,8 @@
-const ProductCategoryRow = ({category}:{category:string}) => {
+type ProductCategoryRowProps = {
+	category:string;
+};
+
+const ProductCategoryRow = ({category}:ProductCategoryRowProps) => {
 	return (
 		<tr>
 			<th colSpan={2}>
