@@ -1,4 +1,4 @@
-# Thinking in react tutorial `typescript-unmodified`
+# Thinking in react tutorial `main`
 Following along the "Thinking in React" tutorial at:  https://react.dev/learn/thinking-in-react
 
 ## About this project  
