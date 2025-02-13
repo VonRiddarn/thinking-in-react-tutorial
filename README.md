@@ -1,5 +1,12 @@
 # Thinking in react tutorial
-Following along the "Thinking in React" tutorial at: https://react.dev/learn/thinking-in-react
+Following along the "Thinking in React" tutorial at:  https://react.dev/learn/thinking-in-react
+
+## About this project  
+This project is just me following the "Thinking in React" tutorial except it's written in Typescript 
+with the coding conventions we've established in school. (Mainly replacing named functions with arrow functions).  
+Due to me actively working on this, the main branch of this project will evolve into using things like state.  
+  
+If you're not interested in all that, just choose the `typescript-unmodified` branch.
 
 ## Download, install and run
 1️⃣ Fork the Repository  
