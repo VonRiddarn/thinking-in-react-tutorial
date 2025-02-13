@@ -8,24 +8,24 @@ fork this repository by clicking the `Fork` button at the top right of this page
 
 2️⃣ Clone the Repository  
 ```
-	git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
 ```  
 `USER-NAME` = Your Github username  
 `REPO-NAME` = The name you forked the repo as
 
 3️⃣ Navigate into the Project Folder  
 ```
-	cd REPOSITORY-NAME
+cd REPOSITORY-NAME
 ```
 
 4️⃣ Install Dependencies  
 ```
-	npm install
+npm install
 ```
 
 5️⃣ Start the Development Server  
 ```
-	npm run dev
+npm run dev
 ```
 
 ## About the folder structure
