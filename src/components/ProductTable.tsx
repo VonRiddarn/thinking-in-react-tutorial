@@ -21,7 +21,8 @@ function ProductTable({products, filterText, inStockOnly}:ProductTableProps) {
 		// Return the index of the first letter of the first substring.
 		// "nda" + "Monday" = 2;
 		// If no substring is found, returns -1.
-		if(product.name.toLowerCase().indexOf(filterText.toLowerCase()) === -1)
+		if(product.name.toLowerCase().indexOf(filterText.toLowerCase()) === -1 && 
+		product.category.toLowerCase().indexOf(filterText.toLowerCase()) === -1)
 			return;
 
 		if(product.category !== lastCategory) {
