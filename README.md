@@ -11,7 +11,11 @@ fork this repository by clicking the `Fork` button at the top right of this page
 git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
 ```  
 `USER-NAME` = Your Github username  
-`REPO-NAME` = The name you forked the repo as
+`REPO-NAME` = The name you forked the repo as  
+  
+**Alternative**  
+Go to your repo and press the green `[<> Code]` button.  
+Copy the link from there.  
 
 3️⃣ Navigate into the Project Folder  
 ```
